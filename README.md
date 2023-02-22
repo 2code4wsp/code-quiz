@@ -1,1 +1,1 @@
-# code-quiz
+# multi-choice-assessment
