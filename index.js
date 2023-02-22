@@ -35,29 +35,31 @@ function showQuestions() {
     var answer;
 }
 //question number one: what is the question and how is it answered
-let myQuestions = {
-    question: "Which of the following is NOT a JavaScript data type?",
-    options: ['Boolean', 'Value', 'Number','String']
-    answer: 1,
-},
+let myQuestions = [
+    {
+        question: "Which of the following is NOT a JavaScript data type?",
+        options: ['Boolean', 'Value', 'Number','String'],
+        answer: 'Value',
+    },
 //question number two:
-{
-    question: "What type of bracket encloses an array?",
-    options: ['{}','()','arrays do not use brackets','[]']
-    answer: 3,
-},
+    {
+        question: "What type of bracket encloses an array?",
+        options: ['{}','()','arrays do not use brackets','[]'],
+        answer: '[]',
+    },
 //question number three:
-{
-    question: "What is the 'type of' operator value?",
-    options: ['Number', 'Array', 'String', 'Boolean']
-    answer: 2,
-},
+    {
+        question: "What is the 'type of' operator value?",
+        options: ['Number', 'Array', 'String', 'Boolean'],
+        answer: 'String',
+    },
 //question number four: 
-{
-    question: "",
-    options: ['', '','', '']
-    answer: []
-}
+    {
+        question: "some q",
+        options: ['a', 'b', 'c', 'd'],
+        answer: 'd',
+    }
+]
 
 function showQuestions() {
     for(var i = 0; i < options.length; i++) {
