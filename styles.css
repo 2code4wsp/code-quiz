@@ -1,3 +1,17 @@
 .hide {
     display: none;
 }
+
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 46px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    font-family: 'Gloock', serif;
+    font-size: 20px;
+    
+}
